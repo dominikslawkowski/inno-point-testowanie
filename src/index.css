@@ -1,0 +1,67 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+button,
+input {
+  border: none;
+  padding: 0;
+}
+
+button:active {
+  outline: none !important;
+}
+
+input:active {
+  outline: none !important;
+}
+
+button:focus {
+  outline: none !important;
+}
+
+input:focus {
+  outline: none !important;
+}
+
+:root {
+  --gradientLeft1: linear-gradient(to left, #004691, #00336e);
+  --gradientLeft2: linear-gradient(to left, #df3f23, #a52913);
+  --gradientTop1: linear-gradient(to bottom, #004691, #00336e);
+  --gradientHeader: linear-gradient(to top, #003064, #002249);
+  --gradientTest: linear-gradient(
+    180deg,
+    #352083 0%,
+    #462f9d 52.49%,
+    #4929c2 100%
+  );
+  --projectMargin: 80px;
+  --blockMargin: 20px;
+  --headerWidth: 120px;
+}
+
+.MuiDialog-paperWidthSm-72 {
+  max-width: none !important;
+}
+
+div {
+  max-width: none !important;
+}

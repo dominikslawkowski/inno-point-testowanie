@@ -1,0 +1,10 @@
+export const PUT = "put";
+export const PATCH = "patch";
+export const POST = "post";
+export const GET = "get";
+export const DELETE = "delete";
+export const OK = 200;
+export const CREATED = 201;
+export const NO_CONTENT = 204;
+export const UNAUTHORIZED = 401;
+export const BAD_REQUEST = 409;
